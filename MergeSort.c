@@ -35,6 +35,7 @@ void mergeSort(int nums[], int n){
     mergeArray(a, b, nums, mid, n - mid);
 }
 
+//display the array
 void printArray(int arr[], int n){
     for(int i = 0; i < n; i++){
         printf("%d ", arr[i]);
